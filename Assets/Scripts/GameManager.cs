@@ -11,6 +11,6 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        
+        //테스트
     }
 }
