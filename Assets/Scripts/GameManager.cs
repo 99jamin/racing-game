@@ -6,11 +6,9 @@ public class GameManager : MonoBehaviour
 {
     void Start()
     {
-        //테스트
     }
 
     void Update()
     {
-        //테스트
     }
 }
