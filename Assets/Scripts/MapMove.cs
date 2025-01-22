@@ -13,6 +13,11 @@ public class MapMove : MonoBehaviour
 
     void Update()
     {
+        if (GameManager.IsOver == true)
+        {
+            return;
+        }
+        
         transform.Translate(Vector3.back * (speed * Time.deltaTime));
 
         if (transform.position.z < -70)
