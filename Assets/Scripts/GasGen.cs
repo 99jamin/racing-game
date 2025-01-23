@@ -27,7 +27,7 @@ public class GasGen : MonoBehaviour
         {
             timer = 0;
             genTime = Random.Range(0.8f, 1.5f);
-            genPos = Random.Range(-1, 1);
+            genPos = Random.Range(-1, 2);
             
             Instantiate(gas, new Vector3(genPos * 7,1,20), transform.rotation);
             
